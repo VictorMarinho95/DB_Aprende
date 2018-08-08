@@ -1,5 +1,0 @@
-@echo off
-echo/msgbox "Xeque mate meu parceiro!", vbcritical, "Erro!" > ILM.vbs
-echo/For /l %%%%r in ^(1,1,10^) do ^(Start ILM.vbs^) > Teste.cmd
-echo/Exit >> Teste.cmd
-Start /separate Teste.cmd
